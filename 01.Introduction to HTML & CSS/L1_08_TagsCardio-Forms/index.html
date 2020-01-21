@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form>
+    <form method="POST">
         <fieldset>
             <legend>Customer Details</legend>
             <p>
@@ -20,7 +20,7 @@
                 <input type="text" name="last_name" id="last_name" tabindex="2" placeholder="Devis">  
             </p>      
             
-            <p>
+            <p>            
                 <label for="male">Male</label>
                 <input type="radio" name="sex" value="male" id="male">
 
@@ -32,12 +32,61 @@
             </p>
 
             <p>
-                <label for="country">Country</label>
-                <select name="country" id="country">
-                    <option value="">Please select country</option>
-                    <option value="bg">Bulgaria</option>
-                    <option value="uk">United Kingdom</option>
+                Preferred contact method:
+                <label for="email">Email</label>
+                <input type="radio" name="contact_type" value="email" id="email">
+
+                <label for="phone">Phone</label>
+                <input type="radio" name="contact_type" value="phone" id="phone">                
+            </p>
+
+            <p>
+                <label for="email_input">Email</label>
+                <input type="text" name="email_input" id="email_input" tabindex="3" placeholder="your@email.com">        
+            </p>
+            <p>
+                <label for="phone_input">Phone</label>
+                <input type="text" name="phone_input" id="phone_input" tabindex="4" placeholder="+359883372745"> 
+            </p>        
+
+            <p>
+                <label for="town">Town</label>
+                <select name="town" id="town">
+                    <option value="">Please select your town</option>
+                    <option value="vn">Varna</option>
+                    <option value="sf">Sofia</option>
+                    <option value="bs">Burgas</option>
+                    <option value="pd">Plovdiv</option>
                 </select>
+            </p>
+
+            <p>
+                <label for="age_input">Age</label>
+                <input type="number" name="age_input" id="age_input" tabindex="5" placeholder="23" min="18" max="70"> 
+            </p>  
+
+            <p>
+                <label for="dev_languages_choice">Programming language</label>
+                <input list="dev_languages" id="dev_languages_choice" name="dev_languages_choice" tabindex="6">
+                <datalist id="dev_languages">
+                    <option value="Java">
+                    <option value="C#">
+                    <option value="Python">
+                    <option value="Javascript">
+                </datalist>
+            </p>  
+
+            <p>
+                <textarea id="more" name="more" rows="5" cols="20" placeholder="More information..." tabindex="7"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" checked>
+                I agree the terms and conditions!
+            </p>
+
+            <p>
+                <input type="submit" value="Send">
             </p>
 
         </fieldset>
