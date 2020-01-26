@@ -1,0 +1,54 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left-style: solid;
+    padding-left: 2em;
+    font-style: italic;
+    border-color: rgb(221,221,221);
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+    border: 1px solid;
+    border-color: rgb(82, 82, 82);
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: rgb(141, 141, 141);
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(206, 206, 206);
+}
+
+blockquote > footer {
+    text-align: right;
+}
+
+article.lines {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+ul.dots {
+    list-style-type: disc;
+}
+
+ul.discs {
+    list-style-type: circle;
+}
+

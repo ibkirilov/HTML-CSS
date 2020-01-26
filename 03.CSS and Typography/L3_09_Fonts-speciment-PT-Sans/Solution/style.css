@@ -1,0 +1,14 @@
+html {
+    font-family: PT Sans;
+    font-size: 16;
+    line-height: 1.5;
+}
+
+article {
+    margin: 5em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
