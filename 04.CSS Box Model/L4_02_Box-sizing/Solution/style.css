@@ -1,0 +1,16 @@
+section {
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+    border-color: aqua;
+    text-align: center;
+    margin: auto;
+    margin-top: 15em;
+}
+
+section p {
+    max-width: 100%;
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 20px;
+}
