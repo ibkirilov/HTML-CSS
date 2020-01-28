@@ -1,0 +1,49 @@
+html {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    margin: 3em;
+}
+
+.entry {
+    width: 65%;
+    display: inline-block;
+}
+
+.site-aside {
+    width: 34%;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.site-aside p {
+    font-size: 1.4em;
+}
+
+.article-image {
+    width: 600px;
+    margin-bottom: 1em;
+}
+
+.aside-list {
+    text-decoration: none;
+    text-align: top;
+}
+
+.header {
+    display: inline-block;
+}
+
+.article-header {
+    margin-bottom: 0.60em;
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+.article-section h2 {
+    margin-bottom: 0.6em;
+    margin-top: 1.5em;
+}
+
+.nav {
+    display: inline-block;
+}

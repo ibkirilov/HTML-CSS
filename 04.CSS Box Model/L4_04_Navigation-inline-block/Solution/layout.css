@@ -5,23 +5,32 @@ body {
 
 .site-branding {
     display: inline-block;
-    width: 50%;
+    width: 59%;
 }
 
 .site-header nav {
     display: inline-block;
-    width: 49%;
+    width: 40%;
     vertical-align: top;
 }
 
 .site-main {
     display: inline-block;
-    width: 59%;
+    width: 69%;
 }
 
 .site-sidebar {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     vertical-align: top;
+    text-align: left;
+}
+
+.entry {
+    padding: 0 1.5em;
+}
+
+.site-footer {
+    text-align: right;
 }
 
