@@ -1,49 +1,29 @@
 html {
     background-color: rgb(238, 238, 238);
     color: rgb(51, 51, 51);
-    margin: 3em;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
 }
 
 .entry {
-    width: 65%;
+    max-width: 40em;
+    margin: 0 auto;
+    margin-left: 0;
     display: inline-block;
-}
-
-.site-aside {
-    width: 34%;
-    margin-top: 0;
-    display: inline-block;
-}
-
-.site-aside p {
-    font-size: 1.4em;
+    width: 69%;
 }
 
 .article-image {
-    width: 600px;
-    margin-bottom: 1em;
+    width: 500px;
 }
 
-.aside-list {
-    text-decoration: none;
-    text-align: top;
-}
-
-.header {
+.site-aside {
     display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
 }
 
-.article-header {
-    margin-bottom: 0.60em;
-    font-size: 1.4em;
-    display: inline-block;
-}
-
-.article-section h2 {
-    margin-bottom: 0.6em;
-    margin-top: 1.5em;
-}
-
-.nav {
-    display: inline-block;
-}
