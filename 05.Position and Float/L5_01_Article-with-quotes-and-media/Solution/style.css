@@ -1,0 +1,20 @@
+.site {
+    max-width: 60em;
+    background-color: #EEE;
+    margin: 0 auto;
+}
+
+.site-header hr {
+    border: none;
+    border-top: 3px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;    
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
