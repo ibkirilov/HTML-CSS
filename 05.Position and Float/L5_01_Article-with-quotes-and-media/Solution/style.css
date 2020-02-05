@@ -1,12 +1,12 @@
 .site {
     max-width: 60em;
-    background-color: #EEE;
+    /* background-color: #EEE; */
     margin: 0 auto;
 }
 
 .site-header hr {
     border: none;
-    border-top: 3px solid #333;
+    border-top: 2.5px solid #333;
     color: #333;
     overflow: visible;
     text-align: center;
@@ -17,4 +17,43 @@
     display: inline-block;
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 0.8em;
+}
+
+.article-header img {
+    display: block;
+    float: right;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 0.2em;
+    margin-left: 1em;
+}
+
+.article-main img {
+    display: block;
+    float: left;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 0.2em;
+    margin-right: 1em;
+}
+
+.article-header h1 {
+    font-size: 2em;
+    padding-top: 0.7em;
+}
+
+.article-main h2 {
+    font-size: 1.75em;
+    padding-top: 0.8em;
+}
+
+.article-main blockquote {
+    display: block;
+    float: right;
+    width: 45%;
+    margin-left: 2em;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #555;
 }
