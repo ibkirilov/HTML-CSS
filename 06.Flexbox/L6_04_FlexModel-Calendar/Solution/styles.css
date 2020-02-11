@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+.container {
+    max-width: 65vw;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.container,
+.week, 
+.notes {
+    display: flex;
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+.notes {
+    flex-direction: column;
+    width: 22%;
+}
+
+.week span {
+    border: 1px solid black;
+    padding: 1em 2em;
+    height: 6em;
+    flex: 1 0 auto;
+}
+
+.week span:first-child, 
+.week span:nth-child(7) {
+    width: 100%;
+}
+
+.notes span {
+    border: 1px solid black;
+    height: 100%;
+}
