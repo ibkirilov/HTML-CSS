@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+p, ul, ol {
+    margin-bottom: 1.5em;
+}
+
+h1, h2, h3, blockquote {
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.page {
+    width: 55em;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page aside section ul {
+    margin-top: 0.75em;
+}
+
+.page aside section ul li {
+    margin-top: 0.2em;
+    margin-left: 1.8em;
+    padding-left: 0.5em;
+}
+
+.page aside section ul li a {
+    text-decoration: none;
+    color: #080;
+}
+
+.site-header {
+    width: 100%;
+    margin: 0.5em 2em;
+    border-bottom: 2px solid black;
+}
+
+.site-main {
+    width: 75%;
+    margin: 0.5em 2em;
+}

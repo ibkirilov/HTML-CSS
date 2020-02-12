@@ -18,19 +18,28 @@ ul, li {
 
 body {
     width: 30em;
-    height: 45em;
+    height: auto;
     border: 2px solid black;
 }
 
 ul {
     flex-wrap: wrap;
-    margin: 5em 5em;
+    margin: 2em 2em;
     justify-content: space-between;
-    align-content: space-between;
+}
+
+ul li {
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.7em 0.1em rgba(0, 0, 0, 0.3);
 }
 
 img {
+    max-height: 12em;
+    max-width: 8em;
     height: auto;
-    width: 5em;
+    width: auto;
+    border: 3px solid black;
+    padding: 0.5em;
+
 }
 
