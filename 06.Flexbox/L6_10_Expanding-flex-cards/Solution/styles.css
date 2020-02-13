@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 60%;
+}
+
+div {
+    background-color: black;
+    border-radius: 1em;
+    flex: 0.8 1 10px;
+    display: flex;
+    overflow: hidden;
+    margin: 0.8em;
+    justify-content: center;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+img {
+    border-radius: 1em;
+}
+
+.expand {
+    flex: 4 4 10px;
+}
+
+img {
+    flex-basis: 90%;
+}
+

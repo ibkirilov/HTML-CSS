@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+p, ul, ol {
+    margin-bottom: 1.5em;
+}
+
+p {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+.cards-layout {
+    width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.cards-layout h2 {
+    width: 100%;
+    margin-left: 2.4em;
+}
+
+.masonry {
+    padding-bottom: 2em;
+}
+
+.masonry .card {
+    width: 15em;
+    height: auto;
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.20);
+    margin-top: 2em;
+}
+
+.card-media {
+    width: 15em;
+    height: auto;
+    overflow: hidden;
+}
+
+.card-title p {
+    padding-top: 0.75em;
+}
+
