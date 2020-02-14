@@ -15,16 +15,16 @@ p, ul, ol {
     padding-bottom: 1.5em;
 }
 
-.container {
-    max-width: 65vw;
-    margin: 0 auto;
-    margin-top: 5em;
-}
-
 .container,
 .week, 
 .notes {
     display: flex;
+}
+
+.container {
+    max-width: 65vw;
+    margin: 0 auto;
+    margin-top: 5em;
 }
 
 .week {

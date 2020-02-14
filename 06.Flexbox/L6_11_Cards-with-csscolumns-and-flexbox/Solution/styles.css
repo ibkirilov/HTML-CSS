@@ -5,6 +5,7 @@
 
 html {
     box-sizing: border-box;
+    font: 14px/1.5 "Verdana", sans-serif;
 }
 
 *, *::before, *::after {
@@ -39,14 +40,14 @@ p {
 }
 
 .masonry .card {
-    width: 15em;
+    width: 17em;
     height: auto;
     box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.20);
     margin-top: 2em;
 }
 
 .card-media {
-    width: 15em;
+    width: 17em;
     height: auto;
     overflow: hidden;
 }

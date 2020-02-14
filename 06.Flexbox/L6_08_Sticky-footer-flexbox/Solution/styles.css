@@ -18,8 +18,9 @@ p, ul, ol {
 body {
     display: flex;
     background-color: rgb(238, 238, 238);
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
+    padding: 4em;
 }
 
 header {
@@ -32,6 +33,7 @@ header h1 {
 }
 
 main {
+    flex-grow: 1;
     margin-top: 2em;
 }
 
